@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "EV3_20_SERVICIO_MEDIAPLAYER"

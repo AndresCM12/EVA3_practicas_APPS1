@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "EVA3_5_HILOS_VS_UI"

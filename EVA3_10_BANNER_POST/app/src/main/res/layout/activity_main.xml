@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgVwImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/f1" />
+
+    <SeekBar
+        android:id="@+id/skVelocidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressTint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtVwVelocidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La velocidad es de: 2000 ms" />
+</LinearLayout>
